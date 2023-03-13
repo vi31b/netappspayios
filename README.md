@@ -7,15 +7,6 @@ it, simply add the following line to your Podfile:
 pod 'netappspayios'
 ```
 
-## Author
-
-lawrence nwoko, nwokolawrence6@gmail.com
-
-## License
-
-netappspayios is available under the MIT license. See the LICENSE file for more info.
-
-
 ### NetAppsPay Integration
 NetAppsPay is a payment processing platform that allows you to easily integrate payments into your iOS application. In this guide, we will show you how to integrate NetAppsPay using the netappspayios library.
 
