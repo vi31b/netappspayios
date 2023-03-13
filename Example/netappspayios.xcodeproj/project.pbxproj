@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A3C0A5DBAD11B92788CE8E18 /* Pods_netappspayios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4ABC117F297043739FF68F /* Pods_netappspayios_Example.framework */; };
+		B3C89F8929BA944B0050E493 /* hd-wallpaper-gea5c1be0d_640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3C89F8829BA944B0050E493 /* hd-wallpaper-gea5c1be0d_640.jpg */; };
 		C665DBFD88FA770A6F83F613 /* Pods_netappspayios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756C20DF4EB72C77EC8F4279 /* Pods_netappspayios_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D4D40E92C0CAFEE23BFBFA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1FF0DF2F20FC9D8FF2DD50D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D4D40E92C0CAFEE23BFBFA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1FF0DF2F20FC9D8FF2DD50D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		56AB1EF3011597BFFD60D567 /* Pods-netappspayios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netappspayios_Tests.release.xcconfig"; path = "Target Support Files/Pods-netappspayios_Tests/Pods-netappspayios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* netappspayios_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netappspayios_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +43,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		756C20DF4EB72C77EC8F4279 /* Pods_netappspayios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netappspayios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A93D6B527DBBFA43C6EF57F /* netappspayios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = netappspayios.podspec; path = ../netappspayios.podspec; sourceTree = "<group>"; };
+		7A93D6B527DBBFA43C6EF57F /* netappspayios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = netappspayios.podspec; path = ../netappspayios.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		826260A7317F5566C91D613A /* Pods-netappspayios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netappspayios_Example.debug.xcconfig"; path = "Target Support Files/Pods-netappspayios_Example/Pods-netappspayios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		94089ECD3DCEDD422695EAD3 /* Pods-netappspayios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netappspayios_Example.release.xcconfig"; path = "Target Support Files/Pods-netappspayios_Example/Pods-netappspayios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AC4ABC117F297043739FF68F /* Pods_netappspayios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netappspayios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C89F8829BA944B0050E493 /* hd-wallpaper-gea5c1be0d_640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hd-wallpaper-gea5c1be0d_640.jpg"; sourceTree = "<group>"; };
 		C2B3CC2CEFDA0FDAC513A9D6 /* Pods-netappspayios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netappspayios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-netappspayios_Tests/Pods-netappspayios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +88,6 @@
 				C2B3CC2CEFDA0FDAC513A9D6 /* Pods-netappspayios_Tests.debug.xcconfig */,
 				56AB1EF3011597BFFD60D567 /* Pods-netappspayios_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,6 +117,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				B3C89F8829BA944B0050E493 /* hd-wallpaper-gea5c1be0d_640.jpg */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +251,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				B3C89F8929BA944B0050E493 /* hd-wallpaper-gea5c1be0d_640.jpg in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +273,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-netappspayios_Example/Pods-netappspayios_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/netappspayios/netappspayios.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/netappspayios.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
