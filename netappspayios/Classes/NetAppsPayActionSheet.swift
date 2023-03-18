@@ -152,7 +152,7 @@ class NetAppsPayActionSheet: UIViewController, WKNavigationDelegate, WKScriptMes
 
 extension UIViewController {
     public func presentNetAppsPayActionSheet(withJson json: [String: Any], onSuccess: ((String) -> Void)? = nil, onError: ((String) -> Void)? = nil) {
-        let baseUrl = "http://localhost:3000/"
+        let baseUrl = "https://cdn.netapps.ng/"
         let queryItems = json.map { URLQueryItem(name: $0.key, value: "\($0.value)") }
         var urlComponents = URLComponents(string: baseUrl)
         urlComponents?.queryItems = queryItems
