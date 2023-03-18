@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'netappspayios'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'NetAppsPay is a payment processing platform that allows you to easily integrate payments into your iOS application.'
 
 # This description is used to generate tags and improve search results.
