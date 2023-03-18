@@ -4,7 +4,7 @@ netappspayios is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'netappspayios'
+pod 'netappspayios', '~> 0.0.2'
 ```
 
 ### NetAppsPay Integration
