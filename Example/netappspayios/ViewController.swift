@@ -7,8 +7,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let button = UIButton(type: .system)
-        button.setTitle("Show WebView", for: .normal)
-        button.addTarget(self, action: #selector(showWebView), for: .touchUpInside)
+        button.setTitle("Make Payment", for: .normal)
+        button.addTarget(self, action: #selector(InitPayment), for: .touchUpInside)
         view.addSubview(button)
         
         // Position the button in the center of the view
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @objc func showWebView() {
+    @objc func InitPayment() {
         let payload = [
               "currency" : "NGN",
               "public_key" : "b1108bfb3e2542b287162ef27da838f9",
